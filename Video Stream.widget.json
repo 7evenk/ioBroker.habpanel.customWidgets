@@ -1,0 +1,15 @@
+{
+    "settings": [
+        {
+            "type": "item",
+            "id": "src",
+            "label": "Source"
+        },
+        {
+            "type": "string",
+            "id": "type",
+            "label": "Type"
+        }
+    ],
+    "template": "<video width=\"100%\" height=\"100%\" controls autoplay name=\"media\">\n  <source src=\"{{config.src}}\" type=\"{{config.type}}\">\n  Your browser does not support the video tag.\n</video>\n"
+}
